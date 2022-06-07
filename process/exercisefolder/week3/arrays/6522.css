@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "Presicav";
+    src: url(/style/fonts/Presicav/PresicavHv-Regular.woff2);
+    src: url(/style/fonts/Presicav/PresicavRg-Bold.woff2);
+    src: url(/style/fonts/Presicav/PresicavHv-Regular.woff2) format(woff2);
+    src: url(/style/fonts/Presicav/PresicavRg-Bold.woff2) format(woff2);
+}
+
+* {
+    text-decoration: none;
+    font-family: "Presicav";
+}
+
+h2 {
+    font-family: "Presicav";
+    color: hsl(0, 0%, 47%);
+    font-size: 22px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 00px;
+}
+
+h1 {
+    font-family: "Presicav";
+    font-size: 12px;
+    position: absolute;
+    color: hsl(0, 0%, 47%);
+    margin-left: px;
+    text-decoration: none;
+}

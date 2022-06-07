@@ -1,0 +1,27 @@
+.button {
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: solid 10px rgb(0, 255, 72);
+    background-color: blue;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.button:hover {
+    box-shadow: black 5px 5px 5px;
+}
+
+h2 {
+    font-family: "Presicav";
+    color: grey;
+    font-size: 12px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 00px;
+}

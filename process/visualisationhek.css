@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "Presicav";
+    src: url(/uebungen/tag1/style/fonts/Presicav/PresicavLt-Regular.woff2) format(woff2);
+    src: url(/uebungen/tag1/style/fonts/Presicav/PresicavLt-Regular.ttf) format(ttf);
+}
+
+body {
+    height: 100%;
+}
+
+* {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: red;
+}
+
+p {
+    font-family: "Presicav";
+    text-align: justify;
+    width: 50%;
+    line-height: 1.5em;
+}

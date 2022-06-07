@@ -1,0 +1,101 @@
+            * {
+                font-family: "Presicav";
+                text-decoration: none;
+                color: grey;
+            }
+            
+            h2 {
+                display: flex;
+                position: absolute;
+                font-family: "Presicav";
+                color: grey;
+                font-size: 12px;
+                position: absolute;
+            }
+            
+            .square {
+                width: 100%;
+                height: 50px;
+                border-radius: 20px;
+                text-align: center;
+            }
+            
+            .square1 {
+                width: 100%;
+                height: 50px;
+                background-color: rgb(255, 221, 0);
+                border-radius: 20px;
+                text-align: center;
+            }
+            
+            .square2 {
+                width: 100%;
+                height: 50px;
+                background-color: rgb(255, 221, 0);
+                border-radius: 20px;
+                text-align: center;
+            }
+            
+            .square3 {
+                width: 100%;
+                height: 50px;
+                background-color: rgb(255, 221, 0);
+                border-radius: 20px;
+                text-align: center;
+            }
+            
+            .square4 {
+                width: 100%;
+                height: 50px;
+                background-color: rgb(255, 221, 0);
+                border-radius: 20px;
+                text-align: center;
+            }
+            
+            .square5 {
+                width: 100%;
+                height: 50px;
+                background-color: rgb(255, 221, 0);
+                border-radius: 20px;
+                text-align: center;
+            }
+            
+            .square6 {
+                width: 100%;
+                height: 50px;
+                background-color: rgb(255, 221, 0);
+                border-radius: 20px;
+                text-align: center;
+            }
+            
+            .square7 {
+                width: 100%;
+                height: 50px;
+                background-color: rgb(255, 221, 0);
+                border-radius: 20px;
+                text-align: center;
+            }
+            
+            .square8 {
+                width: 100%;
+                height: 50px;
+                background-color: rgb(255, 221, 0);
+                border-radius: 20px;
+                text-align: center;
+            }
+            
+            .square9 {
+                width: 100%;
+                height: 50px;
+                background-color: rgb(255, 221, 0);
+                border-radius: 20px;
+                text-align: center;
+            }
+            
+            .square10 {
+                width: 100%;
+                height: 50px;
+                background-color: rgb(255, 221, 0);
+                border-radius: 20px;
+                text-align: center;
+            }

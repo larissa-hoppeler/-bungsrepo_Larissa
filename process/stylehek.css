@@ -1,0 +1,69 @@
+                        @font-face {
+                            font-family: "Presicav";
+                            src: url(/uebungen/tag1/style/fonts/Presicav/PresicavLt-Regular.woff2) format(woff2);
+                            src: url(/uebungen/tag1/style/fonts/Presicav/PresicavLt-Regular.ttf) format(ttf);
+                        }
+                        
+                        body {
+                            height: 100%;
+                        }
+                        
+                        * {
+                            text-decoration: none;
+                            color: rgb(255, 255, 255);
+                            background-color: red;
+                        }
+                        
+                        p {
+                            font-family: "Presicav";
+                            position: fixed;
+                            margin-top: 70px;
+                            justify-content: space-between;
+                        }
+                        
+                        h1 {
+                            font-family: "Presicav";
+                        }
+                        
+                        .about {
+                            position: fixed;
+                            margin-left: 0px;
+                        }
+                        
+                        .motivation {
+                            position: fixed;
+                            margin-left: 288px;
+                        }
+                        
+                        .data {
+                            position: fixed;
+                            margin-left: 638px;
+                        }
+                        
+                        .visualisation {
+                            position: fixed;
+                            margin-left: 1058px;
+                        }
+                        
+                        .pic {
+                            position: absolute;
+                            justify-content: center;
+                            margin-top: 120px;
+                        }
+                        
+                        .video {
+                            position: center;
+                            justify-content: center;
+                            align-items: center;
+                            margin-top: 850px;
+                            size: 200%;
+                        }
+                        
+                        h2 {
+                            font-family: "Presicav";
+                            color: hsl(0, 0%, 100%);
+                            font-size: 12px;
+                            position: absolute;
+                            margin-top: 200px;
+                            margin-left: 00px;
+                        }

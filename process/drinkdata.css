@@ -1,0 +1,69 @@
+@font-face {
+    font-family: "Presicav";
+    src: url(/tag1/style/fonts/Presicav/PresicavHv-Regular.woff2) format(woff2);
+    src: url(/tag1/style/fonts/Presicav/PresicavLt-Regular.ttf) format(ttf);
+}
+
+* {
+    text-decoration: none;
+    color: black;
+}
+
+.time {
+    font-family: "Presicav";
+    font-size: 50px;
+    margin-left: 7%;
+}
+
+.uno {
+    font-family: "Presicav";
+    font-size: 12px;
+    position: absolute;
+    color: hsl(0, 0%, 47%);
+    margin-left: 650px;
+    opacity: 50%;
+    margin-top: -430px;
+}
+
+.h1:hover {
+    opacity: 100%;
+}
+
+.due {
+    font-family: "Presicav";
+    font-size: 12px;
+    position: absolute;
+    color: hsl(0, 0%, 47%);
+    margin-left: 650px;
+    opacity: 50%;
+    margin-top: -320px;
+}
+
+h2 {
+    font-family: "Presicav";
+    color: hsl(0, 0%, 47%);
+    font-size: 12px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 120px;
+}
+
+.tre {
+    font-family: "Presicav";
+    font-size: 12px;
+    position: absolute;
+    color: hsl(0, 0%, 47%);
+    margin-left: 650px;
+    opacity: 50%;
+    margin-top: -205px;
+}
+
+.quattro {
+    font-family: "Presicav";
+    font-size: 12px;
+    position: absolute;
+    color: hsl(0, 0%, 47%);
+    margin-left: 650px;
+    opacity: 50%;
+    margin-top: -90px;
+}

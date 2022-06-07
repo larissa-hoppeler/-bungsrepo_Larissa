@@ -1,0 +1,133 @@
+                                      :root {
+                                         --red: #f33;
+                                         --green: #3f3;
+                                         --blue: rgb(43, 0, 255);
+                                         --pink: #f3c;
+                                         --cyan: #3ff;
+                                         --yellow: #ff3;
+                                         --white: #eee;
+                                         --black: #111;
+                                         --grey: rgb(196, 196, 196);
+                                         --background: #ccc;
+                                     }
+                                     
+                                     body {
+                                         margin: 0;
+                                         padding: 0;
+                                         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                     }
+                                     
+                                     * {
+                                         text-decoration: none;
+                                         color: white;
+                                     }
+                                     
+                                     .flex-container {
+                                         display: flex;
+                                         flex-direction: row;
+                                         flex-wrap: wrap;
+                                         justify-content: center;
+                                         align-items: flex-start;
+                                         align-content: space-evenly;
+                                         background-color: var(--background);
+                                         width: 100%;
+                                         height: 100vh;
+                                     }
+                                     
+                                     .flex-item {
+                                         width: 150px;
+                                         height: 150px;
+                                         display: flex;
+                                         flex-direction: column;
+                                         justify-content: space-around;
+                                         align-items: center;
+                                         flex-grow: 1;
+                                         word-break: 0
+                                     }
+                                     
+                                     .flex-item img {
+                                         width: 100%;
+                                         height: auto;
+                                     }
+                                     
+                                     .red-bg {
+                                         background-color: var(--red);
+                                         /* align-self: flex-start; */
+                                         /* order: 2; */
+                                         height: 210px;
+                                     }
+                                     
+                                     .blue-bg {
+                                         background-color: var(--blue);
+                                         order: 3;
+                                         align-self: flex-start;
+                                         flex-grow: 0;
+                                         height: 200px;
+                                     }
+                                     
+                                     .green-bg {
+                                         background-color: var(--green);
+                                         order: 0;
+                                         flex-grow: 2;
+                                         height: fit-content;
+                                         height: 500px;
+                                     }
+                                     
+                                     .pink-bg {
+                                         background-color: var(--pink);
+                                         height: fit-content;
+                                     }
+                                     
+                                     .cyan-bg {
+                                         background-color: var(--cyan);
+                                         height: fit-content;
+                                         flex-grow: 7;
+                                     }
+                                     
+                                     .yellow-bg {
+                                         background-color: var(--yellow);
+                                         height: fit-content;
+                                     }
+                                     
+                                     .white-bg {
+                                         background-color: var(--white);
+                                         flex-grow: 10;
+                                         height: 600px;
+                                     }
+                                     
+                                     .black-bg {
+                                         background-color: var(--black);
+                                         height: fit-content;
+                                         flex-grow: 21;
+                                     }
+                                     
+                                     .grey-bg {
+                                         background-color: var(--grey);
+                                         height: fit-content;
+                                         flex-grow: 20;
+                                     }
+                                     
+                                     .htmllink {
+                                         background-color: var(--grey);
+                                         height: fit-content;
+                                         flex-grow: 20;
+                                         font-family: "Presicav";
+                                         color: hsl(0, 0%, 47%);
+                                         font-size: 12px;
+                                         display: flex;
+                                         margin-left: 00px;
+                                         justify-content: top;
+                                         align-items: flex-start;
+                                         width: 100%;
+                                         margin-top: -200px;
+                                         text-decoration: none;
+                                     }
+                                     
+                                     h2 {
+                                         font-family: "Presicav";
+                                         color: grey;
+                                         font-size: 12px;
+                                         position: absolute;
+                                         margin-top: 100px;
+                                         margin-left: 10px;
+                                     }

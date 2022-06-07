@@ -1,0 +1,33 @@
+#element {
+    position: absolute;
+    top: 200px;
+    left: 10px;
+    width: 1000px;
+    height: 1000px;
+    background-color: yellow;
+}
+
+.random {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+.bild {
+    position: absolute;
+    margin-top: 500px;
+    width: 500px;
+    height: 500px;
+    background-color: orange;
+}
+
+h2 {
+    font-family: "Presicav";
+    color: hsl(0, 0%, 47%);
+    font-size: 12px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 00px;
+}
